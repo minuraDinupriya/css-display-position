@@ -27,6 +27,7 @@ h1{
     width: 50px;
     border-radius: 5px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 #box1{
@@ -43,6 +44,8 @@ h1{
 
 #box4{
     background-color: rgb(198, 214, 76);
+    flex-grow: 1;
+    
 }
 
 .boxContainer{
@@ -52,4 +55,6 @@ h1{
     height: 100vh;
     flex-wrap: wrap;
     align-content: flex-start;
+    column-gap: 3px;
+    row-gap: 3px;
 }
