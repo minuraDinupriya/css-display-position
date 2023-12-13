@@ -1,4 +1,4 @@
-div{
+h2{
     background-color: red;
     width: 50px;
     height: 50px;
@@ -9,5 +9,46 @@ span{
     display: block;
     width: 50px;
     height: 50px;
-    /* display: inline;  */
+    display: inline; 
+}
+h1{
+    display:inline;
+}
+ .area1{
+    /* justify-content: center;  */
+    text-align: center; 
+ }
+
+
+ /* ////////////////////////////////// */
+ 
+.box{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#box1{
+    background-color: red;
+}
+
+#box2{
+    background-color: rgb(40, 99, 133);
+}
+
+#box3{
+    background-color: rgb(59, 245, 81);
+}
+
+#box4{
+    background-color: rgb(198, 214, 76);
+}
+
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    border: 10px solid black;
+    height: 100vh;
+    flex-wrap: wrap;
 }
